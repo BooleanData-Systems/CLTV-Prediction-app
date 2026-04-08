@@ -4,7 +4,7 @@ This application predicts Customer Lifetime Value (CLV) status and dollar value 
 
 ## How to Use
 
-1. Install the app and connect a warehouse.
+1. Install the app.
 2. The Streamlit interface opens with two tabs: **Single Prediction** and **Batch Prediction**.
 
 ### Single Prediction
@@ -71,5 +71,4 @@ If you connect a results table, it should have the following columns:
 
 ## Requirements
 
-- A Snowflake warehouse connected to the app
 - For batch mode: a customer data table matching the schema above
